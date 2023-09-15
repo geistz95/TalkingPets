@@ -11,11 +11,11 @@ public class Main {
         if(answer==1) {
             ArrayList<Pet> petList= new ArrayList<>();
             boolean hasMorePet=true;
+            String petName;
+            String sound;
+            int age;
+            String breed;
             while (hasMorePet) {
-                String petName;
-                String sound;
-                int age;
-                String breed;
                 System.out.println("Ok, what is your  pet's name?");
                 petName = e.nextLine();
                 System.out.print("How old is your pet?\n");
