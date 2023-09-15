@@ -1,8 +1,10 @@
 package org.Pet;
 import java.util.ArrayList;
 import java.util.Scanner;
-// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
-// then press Enter. You can now see whitespace characters in your code.
+/* Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
+then press Enter. You can now see whitespace characters in your code.
+I tried using e.nextInt(); But it skipped over some prompts for some reason, I haven't figured it out yet.
+*/
 public class Main {
     public static void main(String[] args) {
         System.out.println("Hello there!\nDo you have any pets?\nEnter 1 for Yes and anything else for No");
