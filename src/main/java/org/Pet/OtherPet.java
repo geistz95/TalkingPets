@@ -2,6 +2,9 @@ package org.Pet;
 
 public class OtherPet extends Pet{
     String petType;
+    private String speak;
+    private int age;
+    private String name;
     public OtherPet(String name, int age, String speak, String petType){
         super(name,age,speak);
         this.petType=petType;
@@ -14,4 +17,8 @@ public class OtherPet extends Pet{
         this.petType=otherBreed;
     }
     public String getOtherBreed(){return this.petType;}
+    @Override
+    public String getSpeak(){
+        return speak;
+    }
 }

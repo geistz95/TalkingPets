@@ -2,6 +2,9 @@ package org.Pet;
 
 public class Bird extends Pet {
     private String birdBreed;
+    private String speak;
+    private int age;
+    private String name;
 
     public Bird(String name, int age, String speak, String birdBreed ){
         super(name,age,speak);
@@ -15,5 +18,9 @@ public class Bird extends Pet {
         this.birdBreed=birdBreed;
     }
     public String getBirdBreed(){return birdBreed;}
+    @Override
+    public String getSpeak(){
+        return speak;
+    }
 
 }

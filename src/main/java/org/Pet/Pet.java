@@ -1,6 +1,6 @@
 package org.Pet;
 
-public class Pet {
+public abstract class Pet {
     private String name;
     private int age;
     private String speak;
